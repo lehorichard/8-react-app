@@ -1,0 +1,16 @@
+.example {
+    color: aquamarine;
+}
+.memberImageWrapper {
+    text-align: center;
+    background-color: cadetblue;
+}
+.memberImage {
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+    min-width: 8rem;
+    min-height: 8rem;
+    max-width: 256px;
+    max-height: 256px;
+}
