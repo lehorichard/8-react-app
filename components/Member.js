@@ -17,7 +17,7 @@ export function Member({ name, occupation }) {
     return (
         <Card style={{ width: '18rem' }}>
             <Card.Img  as="div" variant="top" className={styles.memberImageWrapper} > 
-                <img className={styles.memberImage} src={`/images/avatar-${occupation}`}></img>
+                <img className={styles.memberImage} src={`/images/avatar-${occupation}.png`}></img>
             </Card.Img>
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
